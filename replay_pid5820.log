@@ -1,0 +1,37 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 161 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 611383 0 -1
+ciMethod java/lang/String <init> ([CII)V 2145 1 5498 0 -1
+ciMethod java/lang/String length ()I 3073 1 193389 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 1090718 0 -1
+ciMethod java/lang/String substring (I)Ljava/lang/String; 2065 1 5378 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1249 1 59564 0 -1
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2641 1 241367 0 -1
+ciMethod java/lang/AbstractStringBuilder newCapacity (I)I 689 1 5206 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2193 1 11550 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 3769 1 214347 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 945 1 44466 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2065 1 71093 0 -1
+ciMethod java/lang/StringBuilder append (C)Ljava/lang/StringBuilder; 3177 1 122635 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1025 1 39179 0 -1
+ciMethod java/io/File <init> (Ljava/lang/String;)V 2049 1 1987 0 -1
+ciMethod java/io/File exists ()Z 2049 1 1467 0 -1
+ciMethod java/io/File isDirectory ()Z 2049 1 1439 0 -1
+ciMethod java/lang/Math min (II)I 3009 1 186628 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 913 1 28950 0 -1
+ciMethod java/io/WinNTFileSystem isLetter (C)Z 2113 1 5016 0 -1
+ciMethod java/io/WinNTFileSystem canonicalize (Ljava/lang/String;)Ljava/lang/String; 2041 1 383 0 -1
+ciMethod java/io/WinNTFileSystem canonicalize0 (Ljava/lang/String;)Ljava/lang/String; 1329 1 166 0 -1
+ciMethod java/io/WinNTFileSystem canonicalizeWithPrefix (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; 873 1 109 0 -1
+ciMethod java/io/WinNTFileSystem canonicalizeWithPrefix0 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; 873 1 109 0 -1
+ciMethod java/io/WinNTFileSystem parentOrNull (Ljava/lang/String;)Ljava/lang/String; 921 16385 436 0 -1
+ciMethod java/io/ExpiringCache get (Ljava/lang/String;)Ljava/lang/String; 2049 1 653 0 -1
+ciMethod java/io/ExpiringCache put (Ljava/lang/String;Ljava/lang/String;)V 2049 1 339 0 -1
+ciMethodData java/lang/Object <init> ()V 2 611383 orig 264 56 173 19 104 0 0 0 0 128 4 218 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 145 74 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String charAt (I)C 2 1090718 orig 264 56 173 19 104 0 0 0 0 176 61 218 20 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 20 133 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x10a29e 0xa0007 0x10a29f 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/String length ()I 2 193389 orig 264 56 173 19 104 0 0 0 0 96 60 218 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 105 143 23 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2 241367 orig 264 56 173 19 104 0 0 0 0 0 71 225 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74 1 0 0 105 108 29 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 64 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 8 0x70007 0x37473 0x40 0x3919 0x110002 0x3919 0x140002 0x3919 oops 0
+ciMethodData java/lang/AbstractStringBuilder newCapacity (I)I 2 5206 orig 264 56 173 19 104 0 0 0 0 192 71 225 20 0 0 0 0 176 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 86 0 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 18 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 13 0 0 0 0 0 data 17 0xd0007 0x982 0x20 0xa7e 0x130007 0x0 0x40 0x1400 0x1a0007 0x1400 0x48 0x0 0x1f0002 0x0 0x220003 0x0 0x18 oops 0

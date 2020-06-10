@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "185638760628",
+    "firebase_url": "https://cgpscguru-de6b0.firebaseio.com",
+    "project_id": "cgpscguru-de6b0",
+    "storage_bucket": "cgpscguru-de6b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185638760628:android:2a23baf94bcdd7c7",
+        "android_client_info": {
+          "package_name": "in.socialninja.cgpscguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185638760628-6112blgcnn4m6jpe0fj3paqnt28h3obv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.socialninja.cgpscguru",
+            "certificate_hash": "16d9b098a4c4af0a32e318220d216eb4f9453595"
+          }
+        },
+        {
+          "client_id": "185638760628-vvfs0kjj664695r4vc5upigaspbg0p6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCWb6y7A8cu2Rrg5js5zQliSx5YupeoKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185638760628-vvfs0kjj664695r4vc5upigaspbg0p6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

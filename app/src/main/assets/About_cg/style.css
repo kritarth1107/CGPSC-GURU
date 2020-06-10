@@ -1,0 +1,36 @@
+body
+{
+	margin-left:; 2px
+}
+@font-face
+{
+	font-family: hindi;
+	src:url(kruti-dev-021.ttf);
+}
+.hindi
+{
+	font-family: hindi;
+}
+@font-face
+{
+	font-family: english;
+	src:url(NimbusRomNo9L-Med.otf);
+}
+.eng
+{
+	font-family: english;
+}
+hr
+{
+	margin-left:2px;
+
+}
+table
+{
+	width: 100%
+
+}
+.table td
+{
+	text-align: left;
+}
